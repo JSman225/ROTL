@@ -30,7 +30,7 @@ body {
     background-image: url("/assets/home-background.png");
   
     /* Set a specific height */
-    min-height: 500px; 
+    height: 700px; 
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
