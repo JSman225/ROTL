@@ -25,16 +25,3 @@ body {
 .text-light-gray{
     color:#D1D5DB;
 }
-.parallax {
-    /* The image used */
-    background-image: url("/assets/home-background.png");
-  
-    /* Set a specific height */
-    height: 700px; 
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
