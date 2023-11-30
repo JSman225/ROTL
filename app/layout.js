@@ -21,6 +21,17 @@ export default function RootLayout({ children }) {
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#111111"></link>
         <meta name="msapplication-TileColor" content="#ffffff"></meta>
         <meta name="theme-color" content="#111111"></meta>
+
+        <meta property="twitter:image" content="https://rotl.vercel.app/assets/logo.png"></meta>
+        <meta property="twitter:card" content="Porem ipsum dolor sit amet consectetur adipiscing elit, nunc vulputate libero et velit interdum."></meta>
+        <meta property="twitter:title" content="RO Track Laying"></meta>
+        <meta property="twitter:description" content="Porem ipsum dolor sit amet consectetur adipiscing elit, nunc vulputate libero et velit interdum." />
+        <meta property="description" content="Porem ipsum dolor sit amet consectetur adipiscing elit, nunc vulputate libero et velit interdum." />
+        <meta property="og:image" content="https://rotl.vercel.app/assets/logo.png"></meta>
+        <meta property="og:title" content="RO Track Laying"></meta>
+        <meta property="og:description" content="Porem ipsum dolor sit amet consectetur adipiscing elit, nunc vulputate libero et velit interdum." />
+        <meta property="og:url" content="https://rotl.vercel.app"></meta>
+
         <title>Railroads Online Track Laying</title>
       </head>
       <body className={`${inter.className} bg-[#111111]`}>
