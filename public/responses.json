@@ -1,0 +1,20 @@
+[
+    {
+        "name": "JSman225",
+        "occupation": "Web Designer & Developer",
+        "avatar_url": "assets/profiles/jsman225.png",
+        "content": "I joined ROTL and almost instantly fell in love with the super supportive and helpful community, and how easy they made it for me to improve my RO track laying."
+    },
+    {
+        "name": "Super",
+        "occupation": "RO Server Manager Developer",
+        "avatar_url": "assets/profiles/super.png",
+        "content": "It's difficult to sum up all of the amazing moments I've had with the ROTL community throughout my time building their app and playing on the server. All of the members are kind, helpful, and really fun to play with. Kist_This has done a great job building a supporting community that is willing to help each other out with track building and running trains."
+    },
+    {
+        "name": "Kist_This",
+        "occupation": "RO Track Laying Founder 😎",
+        "avatar_url": "assets/profiles/kist_this.webp",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    }
+]
