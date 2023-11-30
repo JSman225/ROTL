@@ -49,7 +49,6 @@ const Testimonials = () => {
         return result;
     }
     const content = splitArrayIntoThree(responses);
-    console.log(content.array1);
     return (
         <>
             <div
