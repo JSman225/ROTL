@@ -1,6 +1,7 @@
 import './globals.css'
 import Nav from './components/nav.js';
 import Footer from './components/footer';
+import CookiesPopup from './components/cookiesPopup';
 import { Inter } from 'next/font/google'
 
 const inter = Inter({
@@ -40,6 +41,7 @@ export default function RootLayout({ children }) {
         {children}
         <Footer />
         </div>
+        <CookiesPopup />
       </body>
     </html>
   )
