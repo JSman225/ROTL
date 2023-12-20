@@ -63,7 +63,7 @@ export default function Footer() {
         </div>
         <hr class="my-6 sm:mx-auto border-gray-700 lg:my-8" />
         <div class="sm:flex sm:items-center sm:justify-between">
-          <span class="text-sm sm:text-center text-gray-300">© 2023 <a href="https://flowbite.com/"
+          <span class="text-sm sm:text-center text-gray-300">© 2023 <a href="/"
             class="hover:underline">RO Track Laying™</a>. All Rights Reserved.
           </span>
           <div class="flex mt-4 space-x-5 sm:justify-center sm:mt-0">

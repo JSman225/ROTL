@@ -1,7 +1,7 @@
 export default function termsAndConditions() {
     return (
         <main className="relative bg-white">
-            <section className="text-black p-28 mx-auto max-w-7xl">
+            <section className="text-black p-10 md:p-28 mx-auto max-w-7xl">
                 <h1 className="text-4xl font-medium">Terms and Conditions</h1>
                 <p>Last updated: <b>December 20, 2023</b></p>
                 <br />

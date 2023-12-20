@@ -79,7 +79,7 @@ export default function Home() {
                   </p>
                   <div className="bg-[#FF0000] w-full h-[52px] rounded-lg mt-5 shadow-button">
                     <a className="flex flex-row gap-4 text-[14px] leading-[120%] justify-center items-center h-full w-full"
-                      href="#">
+                      href="https://www.youtube.com/@KistThis_Gaming">
                       Sorem ipsum dolor
                       <svg xmlns="http://www.w3.org/2000/svg" width="33" height="30" viewBox="0 0 33 30" fill="none">
                         <path
@@ -100,13 +100,13 @@ export default function Home() {
                         fill="#111111" />
                     </svg>
                   </div>
-                  <h1 className="mt-5 text-3xl font-semibold text-left">ROTL Discord Server</h1>
+                  <h1 className="mt-5 text-3xl font-semibold text-left">Kist's Railyard Discord Server</h1>
                   <p className="font-normal mt-3 text-sm text-[#D1D5DB] text-left">
                     Worem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero.
                   </p>
                   <div className="bg-[#3743CB] w-full h-[52px] rounded-lg mt-5 shadow-button">
                     <a className="flex flex-row gap-4 text-[14px] leading-[120%] justify-center items-center h-full w-full"
-                      href="#">
+                      href="https://discord.gg/suFSysAPsu">
                       Sorem ipsum dolor
                       <svg xmlns="http://www.w3.org/2000/svg" width="33" height="27" viewBox="0 0 33 27" fill="none">
                         <path
@@ -133,7 +133,7 @@ export default function Home() {
                   </p>
                   <div className="bg-[#3743CB] w-full h-[52px] rounded-lg mt-5 shadow-button">
                     <a className="flex flex-row gap-4 text-[14px] leading-[120%] justify-center items-center h-full w-full"
-                      href="#">
+                      href="https://discord.gg/Y52PW9cXpR">
                       Sorem ipsum dolor
                       <svg xmlns="http://www.w3.org/2000/svg" width="33" height="27" viewBox="0 0 33 27" fill="none">
                         <path
@@ -154,13 +154,13 @@ export default function Home() {
                         fill="#111111" />
                     </svg>
                   </div>
-                  <h1 className="mt-5 text-3xl font-semibold text-left">Railroads Online Servers</h1>
+                  <h1 className="mt-5 text-3xl font-semibold text-left">RO - Official Website</h1>
                   <p className="font-normal mt-3 text-sm text-[#D1D5DB] text-left">
                     Worem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero.
                   </p>
                   <div className="bg-[#111111] w-full h-[52px] rounded-lg mt-5 shadow-button">
                     <a className="flex flex-row gap-4 text-[14px] leading-[120%] justify-center items-center h-full w-full"
-                      href="#">
+                      href="https://www.railroadsonline.com/en/">
                       Sorem ipsum dolor
                       <svg xmlns="http://www.w3.org/2000/svg" width="33" height="27" viewBox="0 0 33 27" fill="none">
                         <path
@@ -191,7 +191,7 @@ export default function Home() {
                 className="rounded-md bg-[#47E5C1] px-4 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">
                   Download for free
                 </a>
-              <a href="#" className="text-sm font-semibold leading-6 text-white">Learn more <span
+              <a href="/server-manager" className="text-sm font-semibold leading-6 text-white">Learn more <span
                 aria-hidden="true">→</span></a>
             </div>
           </div>

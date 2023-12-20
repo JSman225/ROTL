@@ -1,7 +1,7 @@
 export default function privacyPolicy() {
     return (
         <main className="relative bg-white">
-            <section className="text-black p-28 mx-auto max-w-7xl">
+            <section className="text-black p-10 md:p-28 mx-auto max-w-7xl">
                 <h1 className="text-4xl font-medium">Privacy Policy for RO Track Laying</h1>
                 <p>Last updated: <b>12/19/2023</b></p>
 
@@ -62,13 +62,14 @@ export default function privacyPolicy() {
                     <h2 className="text-3xl font-medium">Contact Information</h2>
                     <p className="text-lg">
                         Users with questions or concerns can join our Discord server: <a className="text-sky-800" href="https://discord.gg/EjzW9uQVsk">RO Track Laying Discord</a>.
-                        <br />
-                        <ul className="text-lg list-disc pl-12">
-                            <li>
-                                Direct any inquiries to <a className="text-sky-800" href="mailto:masonkpiano@outlook.com">masonkpiano@outlook.com</a>.
-                            </li>
-                        </ul>
                     </p>
+                    <br />
+                    <ul className="text-lg list-disc pl-12">
+                        <li>
+                            Direct any inquiries to <a className="text-sky-800" href="mailto:masonkpiano@outlook.com">masonkpiano@outlook.com</a>.
+                        </li>
+                    </ul>
+
                 </div>
 
                 <br />
