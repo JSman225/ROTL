@@ -1,4 +1,4 @@
-export default function serverManager() {
+export default function privacyPolicy() {
     return (
         <main className="relative bg-white">
             <section className="text-black p-28 mx-auto max-w-7xl">
