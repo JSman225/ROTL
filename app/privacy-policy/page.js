@@ -79,7 +79,7 @@ export default function privacyPolicy() {
                 <div>
                     <h2 className="text-3xl font-medium">Changes to this Privacy Policy</h2>
                     <p className="text-lg">We may update our privacy policy from time to time. Any changes will be posted on this page.</p>
-                    <p className="text-lg">Your use of this website implies acceptance of this Privacy Policy.</p>
+                    <p className="text-lg">Your use of this website implies initial acceptance of this Privacy Policy.</p>
                 </div>
 
                 <br />
