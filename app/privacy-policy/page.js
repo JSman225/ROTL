@@ -1,3 +1,6 @@
+"use client"
+import CookieSettings from "../components/cookieSettings"
+
 export default function privacyPolicy() {
     return (
         <main className="relative bg-white">
@@ -32,7 +35,10 @@ export default function privacyPolicy() {
                                 Cookies are used to help analytics and color modes run on this site.
                             </li>
                             <li>
-                                We comply with state laws such as CCPA (California), VCDPA & CDPA (Virginia), CPA (Colorado), CTDPA (Connecticut), and UCPA (Utah), as well as GDPR in Europe. Users have the option to block cookies at any time.
+                                We comply with state laws such as CCPA (California), VCDPA & CDPA (Virginia), CPA (Colorado), CTDPA (Connecticut), and UCPA (Utah), as well as GDPR in Europe.
+                            </li>
+                            <li>
+                                Users may change their cookie preferences at anytime.
                             </li>
                         </ul>
                     </div>
@@ -43,9 +49,6 @@ export default function privacyPolicy() {
                         <ul className="text-lg list-disc pl-12">
                             <li>
                                 We do not log user activity, and any data that reaches us, including data from cookies, will not be sold.
-                            </li>
-                            <li>
-                                Users can request the removal of their claimed data/files by contacting our support line.
                             </li>
                         </ul>
                     </div>
@@ -83,6 +86,14 @@ export default function privacyPolicy() {
                 <p className="text-lg">If you have any questions or concerns, please contact us via the provided channels.</p>
                 <br />
                 <p className="text-lg">Thank you for visiting RO Track Laying!</p>
+                <button
+                    type="button"
+                    className="mt-8 inline-flex w-full justify-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 sm:w-auto"
+                    onClick={() => setOpen(false)}
+                  >
+                    Update Cookie Preferences
+                  </button>
+                  <CookieSettings />
             </section>
         </main>
     )
