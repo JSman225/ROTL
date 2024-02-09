@@ -1,7 +1,9 @@
-"use client"
+'use client'
 import CookieSettings from "../components/cookieSettings"
+import { useState } from 'react'
 
-export default function privacyPolicy() {
+export default function PrivacyPolicy() {
+    const [open, setOpen] = useState(false)
     return (
         <main className="relative bg-white">
             <section className="text-black p-10 md:p-28 mx-auto max-w-7xl">
@@ -86,14 +88,8 @@ export default function privacyPolicy() {
                 <p className="text-lg">If you have any questions or concerns, please contact us via the provided channels.</p>
                 <br />
                 <p className="text-lg">Thank you for visiting RO Track Laying!</p>
-                <button
-                    type="button"
-                    className="mt-8 inline-flex w-full justify-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 sm:w-auto"
-                    onClick={() => setOpen(false)}
-                  >
-                    Update Cookie Preferences
-                  </button>
-                  <CookieSettings />
+
+                <CookieSettings open={open} setOpen={setOpen}/>
             </section>
         </main>
     )

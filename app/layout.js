@@ -2,6 +2,7 @@ import './globals.css'
 import Nav from './components/nav.js';
 import Footer from './components/footer';
 import CookiesPopup from './components/cookiesPopup';
+import CookieSettings from './components/cookieSettings';
 import { Inter } from 'next/font/google'
 
 const inter = Inter({

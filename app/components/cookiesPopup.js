@@ -5,8 +5,7 @@ import { Dialog, Transition } from '@headlessui/react'
 import { ShieldCheckIcon } from '@heroicons/react/24/outline'
 
 export default function CookiesPopup() {
-    const [open, setOpen] = useState(true)
-
+    const [open, setOpen] = useState(false)
     const allowButtonRef = useRef(null)
 
     return (
