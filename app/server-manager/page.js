@@ -6,7 +6,7 @@ export default function serverManager() {
                     src="/assets/server-manager-background.png" alt="" />
                 <h1
                     className="sm:ml-8 md:ml-28 mt-24 sm:mt-40 mb-10 md:text-left text-center text-white text-5xl px-3 sm:px-0 sm:text-6xl md:text-8xl leading-[%120] max-w-3xl md:w-full font-semibold"
-                    style={{ textShadow: '0px 14px 16px rgb(0, 0, 0)' }}>Lorem ipsum,<br />dolor sit</h1>
+                    style={{ textShadow: '0px 14px 16px rgb(0, 0, 0)' }}>Your server,<br/>your way</h1>
                 <a href="https://discord.gg/KaVKdDnA6D"
                     className="sm:ml-28 shadow-large mt-12 flex items-center gap-7 justify-center bg-[#47E5C1] w-11/12 h-20 sm:w-[420px] sm:h-[86px] text-[#111111] rounded-2xl font-semibold text-xl sm:text-2xl">
                     Download for free
