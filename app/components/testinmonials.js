@@ -22,6 +22,66 @@ const Testimonials = () => {
             "content": "It's difficult to sum up all of the amazing moments I've had with the ROTL community throughout my time building their app and playing on the server. All of the members are kind, helpful, and really fun to play with. Kist_This has done a great job building a supporting community that is willing to help each other out with track building and running trains."
         },
         {
+            "name": "JSman225",
+            "occupation": "Web Designer & Developer",
+            "avatar_url": "assets/profiles/jsman225.png",
+            "content": "I joined ROTL and almost instantly fell in love with the super supportive and helpful community, and how easy they made it for me to improve my RO track laying."
+        },
+        {
+            "name": "JSman225",
+            "occupation": "Web Designer & Developer",
+            "avatar_url": "assets/profiles/jsman225.png",
+            "content": "I joined ROTL and almost instantly fell in love with the super supportive and helpful community, and how easy they made it for me to improve my RO track laying."
+        },
+        {
+            "name": "JSman225",
+            "occupation": "Web Designer & Developer",
+            "avatar_url": "assets/profiles/jsman225.png",
+            "content": "I joined ROTL and almost instantly fell in love with the super supportive and helpful community, and how easy they made it for me to improve my RO track laying."
+        },
+        {
+            "name": "JSman225",
+            "occupation": "Web Designer & Developer",
+            "avatar_url": "assets/profiles/jsman225.png",
+            "content": "I joined ROTL and almost instantly fell in love with the super supportive and helpful community, and how easy they made it for me to improve my RO track laying."
+        },
+        {
+            "name": "JSman225",
+            "occupation": "Web Designer & Developer",
+            "avatar_url": "assets/profiles/jsman225.png",
+            "content": "I joined ROTL and almost instantly fell in love with the super supportive and helpful community, and how easy they made it for me to improve my RO track laying."
+        },
+        {
+            "name": "JSman225",
+            "occupation": "Web Designer & Developer",
+            "avatar_url": "assets/profiles/jsman225.png",
+            "content": "I joined ROTL and almost instantly fell in love with the super supportive and helpful community, and how easy they made it for me to improve my RO track laying."
+        },
+        {
+            "name": "JSman225",
+            "occupation": "Web Designer & Developer",
+            "avatar_url": "assets/profiles/jsman225.png",
+            "content": "I joined ROTL and almost instantly fell in love with the super supportive and helpful community, and how easy they made it for me to improve my RO track laying."
+        },
+        {
+            "name": "JSman225",
+            "occupation": "Web Designer & Developer",
+            "avatar_url": "assets/profiles/jsman225.png",
+            "content": "I joined ROTL and almost instantly fell in love with the super supportive and helpful community, and how easy they made it for me to improve my RO track laying."
+        },
+        {
+            "name": "JSman225",
+            "occupation": "Web Designer & Developer",
+            "avatar_url": "assets/profiles/jsman225.png",
+            "content": "I joined ROTL and almost instantly fell in love with the super supportive and helpful community, and how easy they made it for me to improve my RO track laying."
+        },
+        {
+            "name": "JSman225",
+            "occupation": "Web Designer & Developer",
+            "avatar_url": "assets/profiles/jsman225.png",
+            "content": "I joined ROTL and almost instantly fell in love with the super supportive and helpful community, and how easy they made it for me to improve my RO track laying."
+        },
+        {
             "name": "Kist_This",
             "occupation": "RO Track Laying Founder 😎",
             "avatar_url": "assets/profiles/kist_this.webp",
@@ -53,7 +113,7 @@ const Testimonials = () => {
         <>
             <div
                 id="testimonials"
-                className={`grid grid-cols-1 gap-6 lg:gap-8 sm:grid-cols-2 lg:grid-cols-3 overflow-hidden ${isExpanded ? 'max-h-[33rem]' : ''}`}>
+                className={`grid grid-cols-1 gap-6 lg:gap-8 sm:grid-cols-2 lg:grid-cols-3 overflow-hidden ${!isExpanded ? 'max-h-[33rem]' : ''}`}>
                 <ul className="space-y-8">
                     {content.array1.map((response) => (
                         <li key={response.id} className="text-sm leading-6">
@@ -127,7 +187,6 @@ const Testimonials = () => {
                 </ul>
             </div>
             <div
-                id="testimonials-background"
                 className={`inset-x-0 bottom-0 flex justify-center bg-gradient-to-t from-[#111111] pt-32 pb-8 absolute ${isExpanded
                     ? 'sticky'
                     : 'absolute -mt-52 transition-opacity duration-300 opacity-100'

@@ -1,4 +1,4 @@
-export default function serverManager() {
+export default function community() {
     return (
         <main className="relative">
             <section className="relative flex items-center sm:items-start flex-col">

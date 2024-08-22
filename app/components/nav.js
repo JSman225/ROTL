@@ -51,7 +51,7 @@ export default function Nav() {
         </div>
         <div className="hidden lg:flex lg:gap-x-12 lg:flex-1 lg:justify-end">
           <a href="/about-us" className="text-md font-semibold leading-6 text-gray-900">About Us</a>
-          <a href="/server-manager" className="text-md font-semibold leading-6 text-gray-900">RO Server Manager</a>
+          <a href="/community" className="text-md font-semibold leading-6 text-gray-900">Community</a>
         </div>
       </nav>
       <div id="mobileMenu" className={`lg:hidden ${visibility ? '' : 'hidden'}`} role="dialog" aria-modal="true">
@@ -82,9 +82,9 @@ export default function Nav() {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
                   </svg>
                 </a>
-                <a href="server-manager"
+                <a href="commmunity"
                   className="flex w-full items-center justify-between rounded-lg px-6 py-4 text-2xl font-semibold leading-7 text-gray-900 hover:bg-gray-50">
-                  RO Server Manager
+                  Community
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2"
                     stroke="currentColor" className="w-6 h-6 flex-none">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />

@@ -8,7 +8,7 @@ export default function Footer() {
   const imageSources = {
     '/': 'assets/home-footer-background.png',
     '/about-us': 'assets/about-us-footer-background.png',
-    '/server-manager': 'assets/ro-server-manager-footer-background.png',
+    '/community': 'assets/community-footer-background.png',
   };
 
   // Determine the image source based on the current pathname
