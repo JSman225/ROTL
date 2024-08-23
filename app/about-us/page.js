@@ -71,14 +71,10 @@ export default function aboutUS() {
           </h1>
         </div>
         <div className="flex-1 hidden md:block">
-          <p className="text-md text-[#D1D5DB] lg:text-left">
-            Dorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet
-            odio mattis.
-          </p>
         </div>
         <div className="flex-1">
           <h1 className="text-center sm:text-right lg:text-7xl sm:text-6xl text-4xl font-medium">
-            +330
+            + 400
           </h1>
         </div>
       </div>

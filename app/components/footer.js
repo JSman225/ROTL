@@ -55,7 +55,7 @@ export default function Footer() {
                   <a href="/privacy-policy" className="hover:underline">Privacy Policy</a>
                 </li>
                 <li>
-                  <a href="/terms-and-conditions" className="hover:underline">Terms &amp; Conditions</a>
+                  <a href="/cookie-policy" className="hover:underline">Cookie Policy</a>
                 </li>
               </ul>
             </div>
@@ -64,7 +64,7 @@ export default function Footer() {
         <hr className="my-6 sm:mx-auto border-gray-700 lg:my-8" />
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm sm:text-center text-gray-300">© 2024 <a href="/"
-            className="hover:underline">RO Track Laying™</a>. All Rights Reserved.
+            className="hover:underline">RO Track Laying</a>
           </span>
           <div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
             <a href="mailto:masonkpiano@outlook.com" className="text-gray-500 hover:text-white">
