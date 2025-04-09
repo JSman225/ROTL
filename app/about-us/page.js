@@ -113,14 +113,14 @@ export default function aboutUS() {
             odio mattis.
           </p>
         </blockquote>
-        <figcaption className="flex items-center space-x-4 mt-10"><img src="assets/profiles/super.png" alt=""
+        <figcaption className="flex items-center space-x-4 mt-10"><img src="https://i0.wp.com/port2flavors.com/wp-content/uploads/2022/07/placeholder-614.png" alt=""
             className="flex-none w-14 h-14 rounded-full object-cover" loading="lazy" decoding="async" />
           <div className="flex-auto">
             <div className="text-base font-semibold text-slate-300">
-              Super
+              Placeholder User
             </div>
             <div className="mt-0.5">
-              RO Server Manager Developer
+             Placeholder user role
             </div>
           </div>
         </figcaption>
