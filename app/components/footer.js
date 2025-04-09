@@ -63,7 +63,7 @@ export default function Footer() {
         </div>
         <hr className="my-6 sm:mx-auto border-gray-700 lg:my-8" />
         <div className="sm:flex sm:items-center sm:justify-between">
-          <span className="text-sm sm:text-center text-gray-300">© 2024 <a href="/"
+          <span className="text-sm sm:text-center text-gray-300">© 2025 <a href="/"
             className="hover:underline">RO Track Laying</a>
           </span>
           <div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">

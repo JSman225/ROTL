@@ -175,7 +175,8 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="mx-auto max-w-7xl py-24 sm:px-6 lg:px-8">
+  
+      <section className="mx-auto max-w-7xl py-24 sm:px-6 lg:px-8 hidden">
         <div
           className="relative isolate overflow-hidden bg-gray-900 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
           <img className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 h-full w-full object-cover -z-10"
@@ -202,6 +203,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+     
       <section className="sm:my-8 px-6 sm:px-28 pb-16">
         <h1 className="text-center text-5xl font-semibold"><i>Don’t just take our word for it.</i></h1>
         <h1
