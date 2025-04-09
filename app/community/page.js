@@ -1,7 +1,7 @@
 'use client'
 import { useState } from 'react';
 
-export default function community() {
+export default function Community() {
     const [isExpanded, setIsExpanded] = useState(false);
 
     const handleTestimonialsToggle = () => {

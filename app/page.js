@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main className="relative">
       <section className="relative flex items-center flex-col">
-        <img className="absolute w-full z-[-1] object-cover object-bottom h-[800px]" src="/assets/home-background.png" />
+        <img className="absolute w-full z-[-1] object-cover object-bottom h-[800px]" src="/assets/home-background.png" alt="Railroad track background" />
         <h1
           className="my-20 text-center text-white text-6xl px-3 sm:px-0 sm:text-8xl leading-[120%] max-w-4xl w-full font-semibold"
           style={{ textShadow: '0px 14px 16px rgb(0, 0, 0)' }}>Railroads Online Track Laying</h1>
